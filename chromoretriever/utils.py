@@ -2,13 +2,13 @@ import re
 from typing import Iterable, List, Mapping, MutableMapping, Sequence
 
 DEFAULT_COLUMNS = [
-    "GenomeID",
-    "Taxon",
-    "Chromosome",
-    "GenBank",
-    "RefSeq",
-    "Size (bp)",
-    "GC content (%)",
+    "genome_id",
+    "taxon",
+    "chromosome",
+    "genbank",
+    "refseq",
+    "size_bp",
+    "gc_content_percent",
 ]
 
 _SPECIAL_CHROMOSOMES = {
@@ -51,7 +51,7 @@ def chromosome_sort_key(chromosome_name: str):
 
 
 def sort_record_dicts(records: Iterable[MutableMapping[str, object]]) -> List[MutableMapping[str, object]]:
-    return sorted(records, key=lambda item: chromosome_sort_key(str(item["Chromosome"])))
+    return sorted(records, key=lambda item: chromosome_sort_key(str(item["chromosome"])))
 
 
 def filter_columns(record: Mapping[str, object], excluded_columns: Sequence[str] | None) -> MutableMapping[str, object]:
