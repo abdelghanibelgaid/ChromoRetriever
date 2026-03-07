@@ -1,5 +1,32 @@
 # ChromoRetriever
 
+<p align="center">
+  <!-- PyPI version -->
+  <a href="https://pypi.org/project/ChromoRetriever">
+    <img src="https://img.shields.io/pypi/v/ChromoRetriever.svg?label=PyPI" alt="PyPI" />
+  </a>
+
+  <!-- DOI -->
+  <a href="https://doi.org/10.5281/zenodo.18897311">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18897311.svg" alt="DOI" />
+  </a>
+
+  <!-- Security -->
+  <a href="https://socket.dev/pypi/package/ChromoRetriever">
+    <img src="https://badge.socket.dev/pypi/package/ChromoRetriever/artifact_id=tar-gz#1764083045680" alt="Socket" />
+  </a>
+
+  <!-- Downloads -->
+  <a href="https://pepy.tech/project/ChromoRetriever">
+    <img src="https://static.pepy.tech/badge/ChromoRetriever" alt="Downloads" />
+  </a>
+
+  <!-- License -->
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" />
+  </a>
+</p>
+
 ChromoRetriever is a lightweight Python library and CLI for retrieving chromosome-level sequence metadata from the NCBI Datasets API and exporting it to CSV or TSV. It is designed for bioinformatics workflows that need a simple way to pull chromosome tables for one or many genome assemblies.
 
 ## Features
