@@ -12,4 +12,4 @@ __all__ = [
     "process_genome_ids",
 ]
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
