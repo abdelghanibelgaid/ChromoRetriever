@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ChromoRetriever"
-version = "0.1.1"
+version = "0.1.2"
 description = "Fetch chromosome and assembled sequence tables from the NCBI Datasets API."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -55,7 +55,7 @@ Issues = "https://github.com/abdelghanibelgaid/ChromoRetriever/issues"
 chromoretriever = "chromoretriever.cli:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/chromoretriever"]
+packages = ["chromoretriever"]
 
 [tool.ruff]
 line-length = 100
