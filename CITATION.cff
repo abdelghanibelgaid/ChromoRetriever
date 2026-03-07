@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite this software as follows."
+title: "ChromoRetriever"
+doi: "10.5281/zenodo.18897311"
+date-released: "2026-03-07"
+repository-code: "https://github.com/abdelghanibelgaid/ChromoRetriever"
+type: "software"
+
+authors:
+  - family-names: "Belgaid"
+    given-names: "Abdelghani"
+    orcid: "https://orcid.org/0000-0002-1581-3958"
+  - family-names: "Mahmoud"
+    given-names: "Zakaria"
+    orcid: "https://orcid.org/0009-0004-6015-325X"
+
+preferred-citation:
+  type: "software"
+  authors:
+    - family-names: "Belgaid"
+      given-names: "Abdelghani"
+    - family-names: "Mahmoud"
+      given-names: "Zakaria"
+  title: "ChromoRetriever"
+  doi: "10.5281/zenodo.18897311"
+  month: 03
+  year: 2026
+  url: "https://doi.org/10.5281/zenodo.18897311"
